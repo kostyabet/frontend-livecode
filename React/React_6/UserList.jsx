@@ -4,9 +4,7 @@
 // Добавь индикатор загрузки.
 import { useState, useEffect } from 'react';
 
-export const UserList = ({
-    fetches
-}) => {
+export const UserList = () => {
     const [users, setUsers] = useState([]);
     const [isLoading, setIsLoading] = useState(false);
 
